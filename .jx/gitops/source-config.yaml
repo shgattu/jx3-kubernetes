@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: springapp
+    - name: springapporiginal
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
