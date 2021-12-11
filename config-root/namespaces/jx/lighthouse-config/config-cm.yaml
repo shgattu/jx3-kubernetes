@@ -9,6 +9,7 @@ data:
       enabled:
         shgattu/jx3-kubernetes: true
         shgattu/springapp: true
+        shgattu/springapporiginal: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         shgattu/jx3-kubernetes: merge
         shgattu/springapp: merge
+        shgattu/springapporiginal: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - shgattu/jx3-kubernetes
         - shgattu/springapp
+        - shgattu/springapporiginal
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - shgattu/jx3-kubernetes
         - shgattu/springapp
+        - shgattu/springapporiginal
       target_url: http://lighthouse-jx./merge/status
 kind: ConfigMap
 metadata:

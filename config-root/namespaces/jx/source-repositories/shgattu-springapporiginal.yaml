@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: shgattu
+    provider: github
+    repository: springapporiginal
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: shgattu-springapporiginal
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/shgattu/springapporiginal.git
+  org: shgattu
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: springapporiginal
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/shgattu/springapporiginal
