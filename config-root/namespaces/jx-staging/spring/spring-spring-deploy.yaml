@@ -5,7 +5,7 @@ metadata:
   name: spring-spring
   labels:
     draft: draft-app
-    chart: "spring-0.0.1"
+    chart: "spring-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'spring'
@@ -25,11 +25,11 @@ spec:
       serviceAccountName: spring-spring
       containers:
         - name: spring
-          image: "ghcr.io/shgattu/spring:0.0.1"
+          image: "ghcr.io/shgattu/spring:0.0.2"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.1
+              value: 0.0.2
           envFrom: null
           ports:
             - name: http
