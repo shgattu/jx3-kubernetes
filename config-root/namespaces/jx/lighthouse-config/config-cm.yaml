@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         shgattu/jx3-kubernetes: true
+        shgattu/spring: true
         shgattu/springapp: true
         shgattu/springapporiginal: true
     plank: {}
@@ -22,6 +23,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         shgattu/jx3-kubernetes: merge
+        shgattu/spring: merge
         shgattu/springapp: merge
         shgattu/springapporiginal: merge
       queries:
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - shgattu/jx3-kubernetes
+        - shgattu/spring
         - shgattu/springapp
         - shgattu/springapporiginal
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - shgattu/jx3-kubernetes
+        - shgattu/spring
         - shgattu/springapp
         - shgattu/springapporiginal
       target_url: http://lighthouse-jx./merge/status
