@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: spring
     - name: springapp
     - name: springapporiginal
     scheduler: in-repo
