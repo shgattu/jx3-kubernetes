@@ -1,0 +1,10 @@
+# Source: spring-test/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: spring-test-spring-test
+  annotations:
+    meta.helm.sh/release-name: 'spring-test'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

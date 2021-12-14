@@ -1,0 +1,22 @@
+# Source: spring-test/templates/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    meta.helm.sh/release-name: 'spring-test'
+  name: spring-test
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  rules:
+    - http:
+        paths:
+          - pathType: ImplementationSpecific
+            backend:
+              service:
+                name: spring-test
+                port:
+                  number: 80
+      host: spring-test-jx-staging.change.me

@@ -209,6 +209,17 @@
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     resourcePath: config-root/namespaces/jx-staging/spring
     version: 0.0.2
+  - apiVersion: v1
+    appVersion: 0.0.1
+    description: A Helm chart for Kubernetes
+    firstDeployed: "2021-12-14T15:43:38Z"
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    lastDeployed: "2021-12-14T15:43:38Z"
+    name: spring-test
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    resourcePath: config-root/namespaces/jx-staging/spring-test
+    version: 0.0.1
 - namespace: jx-production
   path: helmfiles/jx-production/helmfile.yaml
   releases:

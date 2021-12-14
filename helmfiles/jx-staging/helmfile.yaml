@@ -16,5 +16,7 @@ releases:
 - chart: dev/spring-test
   version: 0.0.1
   name: spring-test
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
