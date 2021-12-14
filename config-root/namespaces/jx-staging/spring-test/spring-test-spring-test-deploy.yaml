@@ -5,7 +5,7 @@ metadata:
   name: spring-test-spring-test
   labels:
     draft: draft-app
-    chart: "spring-test-0.0.1"
+    chart: "spring-test-0.0.3"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'spring-test'
@@ -25,11 +25,11 @@ spec:
       serviceAccountName: spring-test-spring-test
       containers:
         - name: spring-test
-          image: "ghcr.io/shgattu/spring-test:0.0.1"
+          image: "ghcr.io/shgattu/spring-test:0.0.3"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.1
+              value: 0.0.3
           envFrom: null
           ports:
             - name: http
