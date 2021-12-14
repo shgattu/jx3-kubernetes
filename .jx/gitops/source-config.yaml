@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: spring
+    - name: spring-test
     - name: springapp
     - name: springapporiginal
     scheduler: in-repo
