@@ -14,7 +14,7 @@ releases:
   values:
   - jx-values.yaml
 - chart: dev/spring-test
-  version: 0.0.1
+  version: 0.0.3
   name: spring-test
   values:
   - jx-values.yaml
