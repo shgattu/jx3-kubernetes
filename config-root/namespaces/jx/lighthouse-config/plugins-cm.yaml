@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - shgattu/spring-boot-gradle-mvc
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - shgattu/spring-test
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -38,6 +42,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       shgattu/spring:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      shgattu/spring-boot-gradle-mvc:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -80,6 +89,22 @@ data:
       - dog
       - pony
       shgattu/spring:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      shgattu/spring-boot-gradle-mvc:
       - approve
       - assign
       - blunderbuss
@@ -154,6 +179,9 @@ data:
     triggers:
     - repos:
       - shgattu/jx3-kubernetes
+      trusted_org: todo
+    - repos:
+      - shgattu/spring-boot-gradle-mvc
       trusted_org: todo
     - repos:
       - shgattu/spring-test
