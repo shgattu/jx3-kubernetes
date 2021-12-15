@@ -10,6 +10,7 @@ data:
         shgattu/jx3-kubernetes: true
         shgattu/spring: true
         shgattu/spring-boot-gradle-mvc: true
+        shgattu/spring-boot-starter-1: true
         shgattu/spring-demo: true
         shgattu/spring-test: true
         shgattu/springapp: true
@@ -28,6 +29,7 @@ data:
         shgattu/jx3-kubernetes: merge
         shgattu/spring: merge
         shgattu/spring-boot-gradle-mvc: merge
+        shgattu/spring-boot-starter-1: merge
         shgattu/spring-demo: merge
         shgattu/spring-test: merge
         shgattu/springapp: merge
@@ -44,6 +46,7 @@ data:
         repos:
         - shgattu/jx3-kubernetes
         - shgattu/spring-boot-gradle-mvc
+        - shgattu/spring-boot-starter-1
         - shgattu/spring-demo
         - shgattu/spring-test
         - shgattu/spring
@@ -60,6 +63,7 @@ data:
         repos:
         - shgattu/jx3-kubernetes
         - shgattu/spring-boot-gradle-mvc
+        - shgattu/spring-boot-starter-1
         - shgattu/spring-demo
         - shgattu/spring-test
         - shgattu/spring

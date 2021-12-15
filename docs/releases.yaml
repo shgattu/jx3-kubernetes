@@ -224,13 +224,13 @@
   path: helmfiles/jx-production/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.1
+    appVersion: 0.0.5
     description: A Helm chart for Kubernetes
-    firstDeployed: "2021-12-12T09:19:26Z"
+    firstDeployed: "2021-12-15T06:52:00Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2021-12-12T09:19:26Z"
+    lastDeployed: "2021-12-15T06:52:00Z"
     name: spring
     repositoryName: dev
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     resourcePath: config-root/namespaces/jx-production/spring
-    version: 0.0.1
+    version: 0.0.5
