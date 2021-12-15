@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: spring
     - name: spring-boot-gradle-mvc
+    - name: spring-demo
     - name: spring-test
     - name: springapp
     - name: springapporiginal
