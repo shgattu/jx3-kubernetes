@@ -13,5 +13,8 @@ releases:
   name: spring
   values:
   - jx-values.yaml
+- chart: dev/spring-test
+  version: 0.0.4
+  name: spring-test
 templates: {}
 renderedvalues: {}
