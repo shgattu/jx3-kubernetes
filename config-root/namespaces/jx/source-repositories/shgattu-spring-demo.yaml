@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: shgattu
+    provider: github
+    repository: spring-demo
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: shgattu-spring-demo
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/shgattu/spring-demo.git
+  org: shgattu
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: spring-demo
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/shgattu/spring-demo
